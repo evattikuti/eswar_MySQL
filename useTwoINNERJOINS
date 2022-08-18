@@ -1,6 +1,0 @@
-SELECT {coloumn_name} FROM {table_name1 from which you want to get values} 
-INNER JOIN {table_name2} 
-ON {table_name1.coloumn_name} = {table_name2.coloumn_name} (use coloumn name that is same in table1 and table2)
-INNER JOIN {table_name3} 
-ON {table_name2.coloumn_name} = {table_name3.coloumn_name} (use coloumn name that is same in table2 and table3)
-WHERE {table_name3.coloumn_name} = "HIT"; (this is the coloumn used above step to join table2 and table3)
